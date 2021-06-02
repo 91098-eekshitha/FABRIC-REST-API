@@ -157,17 +157,17 @@ public void setItemId(String catGuid) {
  this.updatedBy = updatedBy;
  }
  @Column(name = "created_at")
- public Date getCreatedAt() {
+ public Quality getCreatedAt() {
  return this.createdAt;
  }
- public void setCreatedAt(Date createdAt) {
+ public void setCreatedAt(Quality createdAt) {
  this.createdAt = createdAt;
  }
  @Column(name = "updated_at")
- public Date getUpdatedAt() {
+ public Price getUpdatedAt() {
  return this.updatedAt;
  }
- public void setUpdatedAt(Date updatedAt) {
+ public void setUpdatedAt(Price updatedAt) {
  this.updatedAt = updatedAt;
  }
 }
